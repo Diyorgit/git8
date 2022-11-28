@@ -1,0 +1,146 @@
+.main__text {
+    max-width: 540px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.main__title {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333D4B;
+}
+
+/*  */
+
+.quality__left {
+    height: 474px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 88px 85px;
+    background: #2C343E;
+    margin-top: 60px;
+    border-radius: 10px;
+    margin-bottom: 168px;
+}
+
+.quaity__text {
+    max-width: 540px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+
+}
+
+
+.quality__title {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+    margin-bottom: 32px;
+}
+
+.quality__img {
+    width: 370px;
+}
+
+@media screen and (max-width:689px) {
+    .main__img {
+        max-Width: 281px;
+
+        margin-right: 69px;
+
+    }
+
+    .main__title {
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 48px;
+        color: #333D4B;
+        margin-bottom: 30px;
+    }
+
+    .main__text {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #333D4B;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+
+    }
+
+    .quality__left {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    .quality__img {
+        width: 573px;
+        width: 461px;
+        height: 314px;
+    }
+
+    .block {
+        margin-bottom: 153px;
+    }
+
+    .quality__title {
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 48px;
+        text-align: center;
+        color: #FEFCF7;
+    }
+
+    .main__text {
+        max-width: 339px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #333D4B;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+        margin-bottom: 200px;
+    }
+
+    .quaity__text {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #FEFCF7;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+
+    .main__left {
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width:570px) {
+    .main__img {
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    .main__right {
+        text-align: center;
+    }
+
+    .quality__img {
+        max-width: 370px;
+        border-radius: 10px;
+    }
+}
